@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov 10 18:22:20 2019
+# Process ID: 12056
+# Current directory: D:/GitHubfiles/FPGA-HDMI-master3/HDMI_Output_Disp/HDMI_Output_Disp.runs/hdmi_disp_synth_1
+# Command line: vivado.exe -log hdmi_disp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_disp.tcl
+# Log file: D:/GitHubfiles/FPGA-HDMI-master3/HDMI_Output_Disp/HDMI_Output_Disp.runs/hdmi_disp_synth_1/hdmi_disp.vds
+# Journal file: D:/GitHubfiles/FPGA-HDMI-master3/HDMI_Output_Disp/HDMI_Output_Disp.runs/hdmi_disp_synth_1\vivado.jou
+#-----------------------------------------------------------
+source hdmi_disp.tcl -notrace

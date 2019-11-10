@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="hdmi_disp_synth_1" LaunchDir="D:/GitHubfiles/FPGA-HDMI-master3/HDMI_Output_Disp/HDMI_Output_Disp.runs/hdmi_disp_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="video_pll_synth_1" LaunchDir="D:/GitHubfiles/FPGA-HDMI-master3/HDMI_Output_Disp/HDMI_Output_Disp.runs/video_pll_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="clk_wiz_0_synth_1" LaunchDir="D:/GitHubfiles/FPGA-HDMI-master3/HDMI_Output_Disp/HDMI_Output_Disp.runs/clk_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/GitHubfiles/FPGA-HDMI-master3/HDMI_Output_Disp/HDMI_Output_Disp.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="hdmi_disp_synth_1"/>
+		<Parent Id="video_pll_synth_1"/>
+		<Parent Id="clk_wiz_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
